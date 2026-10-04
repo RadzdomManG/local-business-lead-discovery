@@ -1,6 +1,6 @@
-# Radz Scraper for all Social Media
+# Local Business Lead Discovery
 
-Radz Scraper for all Social Media is a local Google Maps lead collection tool built with async Playwright first and automatic Selenium `undetected-chromedriver` fallback. It accepts a query and location, scrolls Google Maps results, extracts listing details, applies lead filters, and exports a formatted Excel workbook with lead data and a scrape summary. It now includes a branded desktop launcher with settings, filters, run/stop controls, live logs, lead preview, and auto-save workbook naming based on your business query.
+Local Business Lead Discovery is a desktop tool for researching business listings on Google Maps. It accepts a query and location, gathers listing details, applies lead filters, and exports a formatted Excel workbook with lead data and a collection summary. The app includes settings, run/stop controls, live logs, lead preview, and automatic workbook naming based on your business query. It uses Playwright with a Selenium fallback for browser automation.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ Radz Scraper for all Social Media is a local Google Maps lead collection tool bu
 
 ```bash
 git clone <your-repo-url>
-cd google-maps-scraper
+cd local-business-lead-discovery
 python -m venv .venv
 ```
 
